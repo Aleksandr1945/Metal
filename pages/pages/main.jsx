@@ -7,9 +7,6 @@ export const getStaticProps = async () => {
     // console.log(data[0].category)
 
 
-    // for (let arr of data[0].category) {
-    //     console.log(arr.nameCat)
-    // }
 
     if(!data) {
         return {

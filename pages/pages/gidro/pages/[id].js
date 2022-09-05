@@ -1,6 +1,7 @@
 import Header from '../../../components/Header'
 import NavbarDop from '../../../components/navbarDop'
 import styles from '../../../../styles/gidro/components/dinamPageId.module.css'
+import Image from 'next/image'
 
 
 export const getServerSideProps = async (context) => {
@@ -45,6 +46,15 @@ return (
           <div className={styles.title}>
               <h1>{gid.nameCat}</h1>
           </div> 
+
+          <div>
+          <Image className = {styles.imageGl}
+                            src = {'/images/main/rezka2.jpg'} 
+                            width={1000}
+                            height={300}
+                            layout="intrinsic"
+                        /> 
+          </div>
          
           <div className={styles.title}>
               <h2>{gid.content.text}</h2>
