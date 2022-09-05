@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/pages/gidro/pages/[id].js"
     ],
-    "/pages/gidro/pages/glass": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/pages/gidro/pages/glass.js"
-    ],
     "/pages/gidro/pages/stone": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
