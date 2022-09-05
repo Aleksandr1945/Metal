@@ -49,6 +49,10 @@ return (
           <div className={styles.title}>
               <h2>{gid.content.text}</h2>
           </div>
+
+          <div className={styles.title}>
+            <h3>{gid.content.text}</h3>
+          </div>
         </div>
       </div>
   </>
