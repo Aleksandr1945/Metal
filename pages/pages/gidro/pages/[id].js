@@ -39,9 +39,6 @@ return (
 
         <div className={styles.content}>
 
-          <div>
-            
-          </div>
 
           <div className={styles.title}>
               <h1>{gid.nameCat}</h1>
@@ -49,9 +46,9 @@ return (
 
           <div>
           <Image className = {styles.imageGl}
-                            src = {'/images/main/rezka2.jpg'} 
+                            src = {gid.content.image} 
                             width={1000}
-                            height={300}
+                            height={400}
                             layout="intrinsic"
                         /> 
           </div>
