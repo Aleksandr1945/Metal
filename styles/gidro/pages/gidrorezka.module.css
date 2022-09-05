@@ -1,0 +1,17 @@
+.glavBlok {
+    display:flex;
+
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(209, 201, 201);
+}
+
+.blokContent {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}

@@ -1,0 +1,179 @@
+.imageGl {
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 50px;
+  
+}
+
+.description {
+  position: absolute;
+  color: orange;
+  margin-left: 65%;
+  z-index: 2;
+}
+
+.greeting {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.p {
+  font-size: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.blokContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(209, 201, 201);
+}
+
+.discrip {
+  text-indent: 25px;
+  margin-left: 5%;
+  color: rgb(209, 201, 201);
+}
+
+.collage {
+  position: absolute;
+  /* margin-left: 55%; */
+  margin-left: calc(55% + (40 - 15) * ((800vw - 600px) / (1920 - 400))) ;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  z-index: 2;
+}
+
+.collageblok {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.coll {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.coll:hover {
+  transform: scale(1.3);
+  transition: 0.2s;
+  z-index: 3;
+}
+
+@media (max-width: 800px) {
+  /* .collage {
+    width: 150px;
+    height: 200px;
+  } */
+}
+
+@media (max-width: 1050px) {
+
+  .imageGl {
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+  }
+  
+  .description {
+    position: absolute;
+    color: orange;
+    margin-left: 55%;
+    z-index: 2;
+  }
+  
+  .greeting {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .p {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  /* .collage {
+    width: 350px;
+    height: 200px;
+  } */
+
+
+
+}
+
+@media (max-width: 1500px) {
+
+  .imageGl {
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+  }
+  
+  .description {
+    position: absolute;
+    color: orange;
+    margin-left: 75%;
+    z-index: 2;
+  }
+  
+  .greeting {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .p {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  /* .collage {
+    width: 450px;
+    height: 100px;
+  } */
+
+}
+
+@media (max-width: 1800px) {
+
+  .imageGl {
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+  }
+  
+  .description {
+    position: absolute;
+    color: orange;
+    margin-left: 75%;
+    z-index: 2;
+  }
+  
+  .greeting {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .p {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  /* .collage {
+    width: 550px;
+    height: 100px;
+  } */
+
+}
+
+
+

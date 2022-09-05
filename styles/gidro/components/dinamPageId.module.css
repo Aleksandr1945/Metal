@@ -1,0 +1,21 @@
+.glavBlock {
+    display: flex;
+}
+/* .h1 {
+    color: rgb(209, 201, 201);
+} */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-basis: 80%;
+    color: rgb(209, 201, 201);
+    text-align: center;
+
+}

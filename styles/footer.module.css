@@ -1,0 +1,51 @@
+.main {
+    display:flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.link {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: rgb(209, 201, 201);
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.link:hover {
+    font-size: 15px;
+    transition: 0.2s;
+    color:orange;
+}
+
+.active {
+    font-size: 15px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.navbar {
+    background-color:rgb(105, 103, 101);
+    height: 250px;
+    min-height: calc(100vh - 330px);
+} 
+
+.kontBlok {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.map {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.kont {
+    padding-top: 50px;
+    color: rgb(209, 201, 201);
+}
+ 
