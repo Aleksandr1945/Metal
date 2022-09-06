@@ -47,8 +47,8 @@ return (
           <div>
           <Image className = {styles.imageGl}
                             src = {gid.content.image} 
-                            width={1000}
-                            height={400}
+                            width={3200}
+                            height={1000}
                             layout="intrinsic"
                         /> 
           </div>
