@@ -27,6 +27,8 @@ export const getServerSideProps = async (context) => {
 
 const Gidro = ({ gid }) => {
 
+  const advantages = gid.content.discripthion3
+  console.log(advantages)
 
 return (
   <>
@@ -58,7 +60,11 @@ return (
           </div>
 
           <div className={styles.title}>
-            <h3>{gid.content.text}</h3>
+            <ul className={styles.prem}>
+              {advantages && advantages.map(({id, prem}) => 
+              <li key={id}><p>{prem}</p></li>
+              )}
+            </ul>
           </div>
         </div>
       </div>
@@ -66,4 +72,4 @@ return (
 )
 }
 
-export default Gidro
+export default Gidro;
