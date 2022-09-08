@@ -2,9 +2,6 @@
     display: flex;
     margin-right: 25px;
 }
-/* .h1 {
-    color: rgb(209, 201, 201);
-} */
 
 .content {
     display: flex;
@@ -18,8 +15,29 @@
     flex-basis: 80%;
     color: rgb(209, 201, 201);
     text-align: center;
+    font-size: 25px;
+}
+
+.discripthion {
+    display: flex;
+    justify-content: center;
+    flex-basis: 80%;
+    color: rgb(209, 201, 201);
+    font-weight: 500;
+    text-indent: 30px;
+    
 }
 
 .imageGl {
     border-radius: 50px;
+}
+.list {
+    list-style-type: none;
+}
+.discripthionPreim {
+    display: flex;
+    justify-content: start;
+    flex-basis: 80%;
+    color: rgb(209, 201, 201);
+    font-weight: 500;
 }

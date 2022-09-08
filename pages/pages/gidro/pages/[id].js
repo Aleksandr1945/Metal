@@ -2,6 +2,8 @@ import Header from '../../../components/Header'
 import NavbarDop from '../../../components/navbarDop'
 import styles from '../../../../styles/gidro/components/dinamPageId.module.css'
 import Image from 'next/image'
+import Footer from '../../../components/footer'
+import { MarkIcons } from '../../../components/MarkIcons'
 
 
 export const getServerSideProps = async (context) => {
@@ -50,27 +52,39 @@ return (
           <Image className = {styles.imageGl}
                             src = {gid.content.image} 
                             width={3200}
-                            height={1000}
+                            height={1400}
                             layout="intrinsic"
                         /> 
           </div>
          
-          <div className={styles.title}>
+          <div className={styles.discripthion}>
               <h2>{gid.content.text}</h2>
           </div>
 
+          {/* Технологии */}
           <div className={styles.title}>
+            <h2>{gid.content.title1}</h2>
+          </div>
+          <div className={styles.discripthion}>
+            <h3>{gid.content.discripthion}</h3>
+          </div>
+          {/* !!! */}
+
+          {/* Преимущества */}
+          <div className={styles.title}>
+            <h2>{gid.content.title3}</h2>
+          </div>
+          <div className={styles.discripthionPreim}>
             <ul className={styles.prem}>
               {advantages && advantages.map(({id, prem}) => 
-              <li key={id}><p>{prem}</p></li>
+              <li key={id} className={styles.list}><p><MarkIcons />{prem}</p></li>
               )}
             </ul>
           </div>
-          <div>
-            <h1>test</h1>
-          </div>
+          {/* !!! */}
         </div>
       </div>
+      <Footer />
   </>
 )
 }

@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/pages/gidro/pages/[id].js"
+    ],
+    "/pages/uslugi/gidrorezka": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pages/uslugi/gidrorezka.js"
     ]
   },
   "ampFirstPages": []
