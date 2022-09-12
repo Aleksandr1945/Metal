@@ -70,6 +70,15 @@ return (
           </div>
           {/* !!! */}
 
+          {/* Особенности */}
+          <div className={styles.title}>
+            <h2>{gid.content.title2}</h2>
+          </div>
+          <div className={styles.discripthion}>
+            <h3>{gid.content.discripthion2}</h3>
+          </div>
+          {/* !!! */}
+
           {/* Преимущества */}
           <div className={styles.title}>
             <h2>{gid.content.title3}</h2>
@@ -80,6 +89,14 @@ return (
               <li key={id} className={styles.list}><p><MarkIcons />{prem}</p></li>
               )}
             </ul>
+          </div>
+          {/* !!! */}
+          {/* Почему стоит заказывать у нас */}
+          <div className={styles.title}>
+            <h2>{gid.content.title4}</h2>
+          </div>
+          <div className={styles.discripthion}>
+            <h3>{gid.content.discripthion4}</h3>
           </div>
           {/* !!! */}
         </div>

@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/pages/gidro/pages/[id].js"
     ],
-    "/pages/uslugi/gidrorezka": [
+    "/pages/gidro/pages/stone": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/pages/uslugi/gidrorezka.js"
+      "static/chunks/pages/pages/gidro/pages/stone.js"
     ]
   },
   "ampFirstPages": []
