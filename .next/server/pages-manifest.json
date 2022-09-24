@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/pages/gidro/pages/stone": "pages/pages/gidro/pages/stone.js",
-  "/api/data/stone": "pages/api/data/stone.js",
-  "/pages/gidro/pages/[id]": "pages/pages/gidro/pages/[id].js",
-  "/api/data/stone/[id]": "pages/api/data/stone/[id].js"
+  "/_document": "pages/_document.js"
 }

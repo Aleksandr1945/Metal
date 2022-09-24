@@ -1,35 +1,13 @@
 import Link from "next/link"
-
-export const getStaticProps = async () => {
-
-    const res = await fetch('http://localhost:3000/api/disc')
-    const data = await res.json()
-    // console.log(data[0].category)
+import Menu from '../components/DropDawnMain'
 
 
 
-    if(!data) {
-        return {
-          notFound: true,
-        }
-      }
-    
-      return {
-        props: { gidro: data },
-      }
-    }
 
-    const main = ({ gidro }) => {
+    const Main = () => {
         return (
             <>
-                <h1>main work</h1>
-                    <ul>
-                        {gidro && gidro.map(({ id, nameCategory, url }) => 
-                        <li key={id}>
-                            <Link href={url}>{nameCategory}</Link>
-                        </li>
-                )}
-            </ul>
+            <Menu />
             </>
         )
     }
@@ -37,4 +15,4 @@ export const getStaticProps = async () => {
 
     
 
-export default main
+export default Main
