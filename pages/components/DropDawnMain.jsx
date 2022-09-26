@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import styles from '../../styles/DropDawnMenu.module.css'
 import { useRouter } from 'next/router'
+import MarkIcons from './MarkIcons'
+import Image from 'next/image'
 
 
-
-const Main = () => {
+const Menu = () => {
 
     const { pathname } = useRouter();
 
@@ -12,15 +13,20 @@ const Main = () => {
         <>
             <nav className={styles.menuWrap}>
                 <ul className={styles.menu}>
-                    <li><Link href='/route/Main'>
-                            <a className={pathname === '/route/Main' ? styles.active : styles.link}>
+                    <li><Link href='/'>
+                            <a className={pathname === '/' ? styles.active : styles.link}>
                                 Главная
                             </a>
                         </Link>
                     </li>
                     <li><Link href='/'>
                             <a className={pathname === '/route/Category' ? styles.active : styles.link}>
-                                Категории
+                                Услуги <Image
+                            src = {'/down_rrow.svg'} 
+                            width={16}
+                            height={16}
+                            layout="intrinsic"
+                        /> 
                             </a>
                         </Link>
                         <ul>
@@ -58,4 +64,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default Menu;

@@ -7,7 +7,7 @@ import Menu from '../components/DropDawnMain'
     const Main = () => {
         return (
             <>
-            <Menu />
+                <Menu />
             </>
         )
     }

@@ -86,7 +86,7 @@ return (
           <div className={styles.discripthionPreim}>
             <ul className={styles.prem}>
               {advantages && advantages.map(({id, prem}) => 
-              <li key={id} className={styles.list}><p><MarkIcons />{prem}</p></li>
+              <li key={id} className={styles.list}><p><MarkIcons href='/GalkaPreim.svg' width={100} height={25}/>{prem}</p></li>
               )}
             </ul>
           </div>
